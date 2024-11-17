@@ -1,46 +1,43 @@
 # Money-Control
 
-**Money-Control** — это приложение для управления личными финансами, которое позволяет пользователям отслеживать свои доходы и расходы, управлять транзакциями и анализировать финансовую информацию.
+**Money-Control** is a personal finance management application that allows users to track their income and expenses, manage transactions, and analyze financial data.
 
 ---
 
-## 📊 Графика связей компонентов
-
-![Связи между компонентами проекта Money-Control]
-![Uploading output.png…]()
-
+## Project Presentation:
+You can view the project presentation at [this link](https://www.canva.com/design/DAGWtt-SgoA/zPuj1oVT-LKnaZLUy41anQ/view?utm_content=DAGWtt-SgoA&utm_campaign=designshare&utm_medium=link&utm_source=editor).
 
 
 ---
 
-## 📌 Основные функции:
-- **Создание и управление транзакциями**: добавление, обновление и удаление финансовых операций.
-- **Категоризация расходов и доходов**: простое отслеживание финансов по категориям.
-- **RESTful API**: удобная интеграция с другими приложениями через HTTP-запросы.
-- **Аутентификация и авторизация**: обеспечение безопасности пользовательских данных.
-- **Генерация отчетов**: анализ финансовых данных для улучшения управления бюджетом.
+## Key Features:
+- **Transaction Management**: Add, update, and delete financial transactions.
+- **Expense Categorization**: Track financial data by categories.
+- **RESTful API**: Seamless integration with other applications using HTTP requests.
+- **Authentication and Authorization**: Secure access to user data.
+- **Report Generation**: Analyze financial data to improve budgeting.
 
 ---
 
-## 📂 Структура проекта:
-- **Контроллеры**: обработка запросов пользователей (папка `controller`).
-- **Сервисы**: реализация бизнес-логики (папка `service`).
-- **Репозитории**: доступ к базе данных (папка `repository`).
-- **Модели**: определение структуры данных (папка `model`).
+## Project Structure:
+- **Controllers**: Handle user requests (`controller` folder).
+- **Services**: Implement business logic (`service` folder).
+- **Repositories**: Interact with the database (`repository` folder).
+- **Models**: Define data structure (`model` folder).
 
 ---
 
-## 🚀 Технологии:
-- **Язык программирования**: Java
-- **Фреймворк**: Spring Boot
-- **База данных**: H2 (или любая совместимая с JPA)
-- **Инструменты разработки**: Maven, Hibernate
-- **Документация API**: Swagger
+## Technologies:
+- **Programming Language**: Java
+- **Framework**: Spring Boot
+- **Database**: H2 (or any JPA-compatible database)
+- **Build Tools**: Maven, Hibernate
+- **API Documentation**: Swagger
 
 ---
 
-## 📘 Установка и запуск:
-1. **Клонируйте репозиторий:**
+## Installation and Usage:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/gulkaiyr13/money-control.git
    cd money-control
